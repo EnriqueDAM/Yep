@@ -2,4 +2,14 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titleSize">50sp</dimen>
+    <dimen name="subtitleSize">25sp</dimen>
+    <dimen name="marginTopTitle">30dp</dimen>
+    <dimen name="marginTopSubtitle">15dp</dimen>
+    <dimen name="LinearTop">45dp</dimen>
+    <dimen name="LinearRightOrLeft">30dp</dimen>
+    <dimen name="LinearPaddingRightOrLeft">15dp</dimen>
+    <dimen name="LinearTopPadding">-5dp</dimen>
+    <dimen name="writtableTextSize">20sp</dimen>
+    <dimen name="separator">1dp</dimen>
 </resources>

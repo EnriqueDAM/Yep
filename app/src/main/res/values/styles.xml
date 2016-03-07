@@ -8,4 +8,112 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="YepTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/marginTopTitle</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Subtitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/title</item>
+        <item name="android:textSize">@dimen/subtitleSize</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="LinearLogIn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_below">@+id/subtitle</item>
+        <item name="android:layout_marginTop">@dimen/LinearTop</item>
+        <item name="android:layout_marginLeft">@dimen/LinearRightOrLeft</item>
+        <item name="android:layout_marginRight">@dimen/LinearRightOrLeft</item>
+        <item name="android:paddingTop">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:paddingBottom">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="UserLogIn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textSize">@dimen/writtableTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingTop">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:paddingBottom">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="PassLogIn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textSize">@dimen/writtableTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingTop">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:paddingBottom">@dimen/LinearPaddingRightOrLeft</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="BtnLogIn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/linearLayout</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginTop">@dimen/LinearTopPadding</item>
+        <item name="android:layout_marginLeft">@dimen/LinearRightOrLeft</item>
+        <item name="android:layout_marginRight">@dimen/LinearRightOrLeft</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/colorButton</item>
+    </style>
+
+    <style name="TxtSignUp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/LoginButton</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/marginTopSubtitle</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/Background</item>
+    </style>
+
+    <style name="Separator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/separator</item>
+    </style>
+
+
 </resources>

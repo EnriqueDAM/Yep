@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".RecipientsActivity">
+    <item
+        android:id="@+id/A"
+        android:orderInCategory="100"
+        android:icon="@mipmap/a"
+        app:showAsAction = "always"
+        android:visible="true"
+        android:title="@string/IconA">
+    </item>
+
+    <item
+        android:id="@+id/B"
+        android:orderInCategory="100"
+        android:icon="@mipmap/b"
+        app:showAsAction = "always"
+        android:visible="true"
+        android:title="@string/IconB">
+    </item>
+</menu>

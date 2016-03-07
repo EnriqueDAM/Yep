@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Yep</string>
+    <string name="splashTitle">Yep!</string>
+    <string name="splashSubtitle">Do I know you?</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Log In</string>
+    <string name="SignUp">Have an account? Sign up here!</string>
+    <string name="Background">Background</string>
+    <string name="IconA">IconA</string>
+    <string name="IconB">IconB</string>
 </resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enrique.yep.LoginActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/splashTitle"
+        style="@style/Title"/>
+
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:text="@string/splashSubtitle"
+        style="@style/Subtitle"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/LinearLogIn">
+
+        <EditText
+            android:id="@+id/UserField"
+            android:hint="@string/Username"
+            style="@style/UserLogIn" />
+
+        <ProgressBar style="@style/Separator" />
+        <EditText
+            android:id="@+id/PasswordField"
+            android:hint="@string/Password"
+            style="@style/PassLogIn" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:text="@string/LoginBtn"
+        style="@style/BtnLogIn" />
+
+    <TextView
+        android:id="@+id/SignUpText"
+        android:text="@string/SignUp"
+        style="@style/TxtSignUp" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="BtnLogIn">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:layout_below">@+id/linearLayout</item>
+                <item name="android:layout_alignParentLeft">true</item>
+                <item name="android:layout_alignParentStart">true</item>
+                <item name="android:singleLine">false</item>
+                <item name="android:textColor">@color/colorWhite</item>
+                <item name="android:layout_marginTop">-4.2dp</item>
+                <item name="android:layout_marginLeft">@dimen/LinearRightOrLeft</item>
+                <item name="android:layout_marginRight">@dimen/LinearRightOrLeft</item>
+                <item name="android:textSize">20sp</item>
+                <item name="android:textAlignment">center</item>
+                <item name="android:background">@color/colorButton</item>
+        </style>
+</resources>
